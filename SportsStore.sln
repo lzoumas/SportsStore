@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{376C9159-4F52-402F-9ED4-9076928362FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{393336FF-D881-4A3F-923F-D9CD225773C0}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SportsStore", "src\SportsStore\SportsStore.xproj", "{3731E09D-4813-4424-ACCB-3130322066C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E010C5FD-2F09-4D62-ADD1-385DFA41FD9B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SportsStore.Tests", "test\SportsStore.Tests\SportsStore.Tests.xproj", "{0EB126BF-7E46-49C9-811E-84673BC19835}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3731E09D-4813-4424-ACCB-3130322066C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3731E09D-4813-4424-ACCB-3130322066C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3731E09D-4813-4424-ACCB-3130322066C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3731E09D-4813-4424-ACCB-3130322066C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB126BF-7E46-49C9-811E-84673BC19835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB126BF-7E46-49C9-811E-84673BC19835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB126BF-7E46-49C9-811E-84673BC19835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB126BF-7E46-49C9-811E-84673BC19835}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3731E09D-4813-4424-ACCB-3130322066C7} = {376C9159-4F52-402F-9ED4-9076928362FE}
+		{0EB126BF-7E46-49C9-811E-84673BC19835} = {E010C5FD-2F09-4D62-ADD1-385DFA41FD9B}
+	EndGlobalSection
+EndGlobal
